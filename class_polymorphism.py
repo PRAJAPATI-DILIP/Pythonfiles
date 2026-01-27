@@ -34,3 +34,19 @@ Areas=[rectangle(),square()]
 for a in Areas:
     a.area()
 
+
+
+class vehicle:
+    def move(self):
+        print("vehicle is moving")
+class car(vehicle):
+    def move(self):
+        print("driving a car")
+class bike(vehicle):
+    def move(self):
+       print ("riding a bike")
+
+
+vehicles=[vehicle(),car(),bike()]
+for a in vehicles:
+    a.move()
